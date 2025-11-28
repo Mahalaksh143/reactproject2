@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background:whitesmoke;
+}
+
+.nav {
+  background: rgb(240, 245, 240);
+  color: orangered;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: black;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+  justify-content: center;
+}
+
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  color: purple;
+}
+
+.meal-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.meal-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details img {
+  width: 300px;
+  border-radius: 10px;
+}
