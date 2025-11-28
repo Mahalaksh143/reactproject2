@@ -5,11 +5,13 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import MealCard from "../Components/MealCard";
 
+
 export default function Home() {
   const [search, setSearch] = useState("");
   const [meals, setMeals] = useState([]);
   const [categories, setCategories] = useState([]);
   const [selectedCat, setSelectedCat] = useState("All");
+  
 
   // Load Categories on first render
   useEffect(() => {
@@ -92,5 +94,6 @@ export default function Home() {
         ))}
       </div>
     </div>
+    
   );
 }

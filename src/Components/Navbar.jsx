@@ -9,7 +9,10 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/Favourites">Favourites</Link>
         <Link to="/Categories">Categories</Link>
+        <Link to="/about">About</Link>
+
       </div>
         </nav>
+        
   );
 }
