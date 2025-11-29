@@ -1,16 +1,15 @@
-import React from "react";
-
 export default function About() {
   return (
-    <div className="about-container">
-      <h2 className="about-title">About Our Recipe App</h2>
+    <div className="about-page">
+      <div className="content-box">
+        <h2>Welcome to Recipe World</h2>
+        <p>
+          Here you can explore thousands of recipes, ingredients, categories and
+          cooking tutorials. Enjoy cooking with us!
+        </p>
 
-      <p className="about-text">
-         
-        Discover awesome meals, explore categories, and save your favourites.
-        Our goal is to make cooking fun, easy, and beautifully presented!
-      </p>
-
+        <button className="zomato-btn">Explore Recipes</button>
+      </div>
     </div>
   );
 }

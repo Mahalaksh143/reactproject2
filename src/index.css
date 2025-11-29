@@ -1,7 +1,8 @@
 body {
   font-family: Arial;
   margin: 0;
-  background:whitesmoke;
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+
 }
 
 .nav {
@@ -31,7 +32,7 @@ body {
 }
 
 .meal-card {
-  background: #fff;
+  background:white;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
@@ -47,36 +48,11 @@ body {
   border-radius: 10px;
 }
 
-.about-container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 30px;
-  background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-.about-title {
-  font-size: 32px;
-  font-weight: 700;
-  color: orangered; 
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.about-text {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #444;
-  margin-bottom: 30px;
-  text-align: center;
-}
 .Card {
   max-width: 1300px;
   margin: 40px auto;
   padding: 30px;
-    background: linear-gradient(135deg,orangered,green);
+background: linear-gradient(135deg,orangered,green);
   border-radius: 15px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   animation: fadeIn 0.5s ease-in-out;
@@ -97,4 +73,56 @@ body {
   margin-bottom: 30px;
   text-align: center;
   font-style: poppins;
+}
+.about-page {
+  
+  background-size: cover;       
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;            
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+
+.content-box {
+  background: rgba(180, 27, 27, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+
+.zomato-btn {
+  background-color: #e23744;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.zomato-btn:hover {
+  background-color: #c22e38;
+  transform: scale(1.05);
+}
+
+.content-box h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.content-box p {
+  font-size: 18px;
+  line-height: 1.5;
 }
